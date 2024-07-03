@@ -17,7 +17,7 @@ Start by running the preprocessing script to download and preprocess IXI.
 Then run the inference script to run prediction on the preprocessed data. As IXI consist of only healthy subjects, the prediction will be low for most subjects.'
 
 ## Model Hyperparamteres
-The models weights are trained with the following hyperparameters:
+The models are trained with the following hyperparameters:
 | Model Type   | Learning Rate | Weight Decay | Optimizer | Batch Size |
 |--------------|---------------|--------------|-----------|------------|
 | EfficientNet | 0.001         | 0.01         | AdamW     | 4          |
