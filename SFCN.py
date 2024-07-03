@@ -91,6 +91,8 @@ class SFCN(nn.Module):
         
         # Global average pooling
         x = F.adaptive_avg_pool3d(x, 1).view(x.size(0), -1)
+        #x = torch.mean(x, dim=(-3, -2, -1))
+        
         x = self.fc(x)
 
         # If the output dimension is not a scalar, reshape it
