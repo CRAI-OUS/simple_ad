@@ -10,11 +10,11 @@ Three models are provided in this repository:
 2. EfficientNet ([Monai implementation](https://docs.monai.io/en/stable/networks.html#efficientnetbn)) [2]
 3. DenseNet ([Monai implementation](https://docs.monai.io/en/stable/networks.html#densenet)) [3]
 ## Dataset
-Since ADNI is a restricted dataset, we cannot share the dataset. However, we have provided the similar code to extract data from the IXI dataset to demonstrate the process. 
+Since ADNI is a restricted dataset, we cannot share the dataset. However, we have provided similar code to extract data from the IXI dataset to demonstrate the process. 
 
 ## Usage
 Start by running the preprocessing script to download and preprocess IXI.
-Then run the inference script to run prediction on the preprocessed data. As IXI consist of only healthy subjects, the prediction will be low for most subjects.'
+Then run the inference script to do prediction on the preprocessed data. As IXI consists of only healthy subjects, the prediction will be low for most subjects.'
 
 ## Model Hyperparamteres
 The models are trained with the following hyperparameters:
