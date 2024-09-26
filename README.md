@@ -1,8 +1,8 @@
 # Simple AD
 Simple Fully Convolutional Network (SFCN) trained on Alzheimer's disease classification using the ADNI dataset. 
 
-**A minimalistic approach to classifying Alzheimer’s disease using simple and extremely small convolutional neural networks**
-*Edvard O. S. Grødem, Esten Leonardsen, Bradley J. MacIntosh, Atle Bjørnerud, Till Schellhorn, Øystein Sørensen, Inge Amlien, Anders M. Fjell, for the Alzheimer’s Disease Neuroimaging Initiative*
+### Paper
+Grødem, E. O., Leonardsen, E., MacIntosh, B. J., Bjørnerud, A., Schellhorn, T., Sørensen, Ø., Amlien, I., Fjell, A. M,  & Alzheimer’s Disease Neuroimaging Initiative. (2024). **A minimalistic approach to classifying Alzheimer’s disease using simple and extremely small convolutional neural networks**. Journal of Neuroscience Methods, 411, DOI: [https://doi.org/10.1016/j.jneumeth.2024.110253](https://doi.org/10.1016/j.jneumeth.2024.110253)
 
 # Models
 Three models are provided in this repository:
